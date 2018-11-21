@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="content/img/apple-icon.png" />
+    <link rel="icon" type="image/png" href="content/img/favicon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Material Dashboard by Creative Tim</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+    <!-- Bootstrap core CSS     -->
+    <link href="content/css/bootstrap.min.css" rel="stylesheet" />
+    <!--  Material Dashboard CSS    -->
+    <link href="content/css/material-dashboard.css?v=1.2.0" rel="stylesheet" />
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="content/css/demo.css" rel="stylesheet" />
+    <!--     Fonts and icons     -->
+    <link href="content/fonts/css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons" rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+       <div class="sidebar" data-color="blue" data-image="">
+            <!--
+        Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
+
+        Tip 2: you can also add an image using data-image tag
+    -->
+             <div class="logo">
+                <a href="#" class="simple-text">
+                   <image src="content/img/logo.png" > ABG UTCL
+                </a>
+            </div>
+			
+			
+            <div class="sidebar-wrapper">
+                <ul class="nav">
+                    <li >
+                        <a href="dashboard.html">
+                            <i class="material-icons">dashboard</i>
+                            <p>Dashboard</p>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="./user.html">
+                            <i class="material-icons">person</i>
+                            <p>User Profile</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./table.html">
+                            <i class="material-icons">content_paste</i>
+                            <p>Transaction</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./typography.html">
+                            <i class="material-icons">library_books</i>
+                            <p>Reports </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./icons.html">
+                            <i class="material-icons">bubble_chart</i>
+                            <p>Manage Masters </p>
+                        </a>
+                    </li>
+                   
+                    <li>
+                        <a href="./notifications.html">
+                            <i class="material-icons text-gray">notifications</i>
+                            <p>Activities </p>
+                        </a>
+                    </li>
+                    <li class="active-pro">
+                        <a href="#">
+                            <i class="material-icons">person</i>
+                            <p> Logout </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        
+		
+		</div>
+        <div class="main-panel">
+		
+		
+            <nav class="navbar navbar-transparent navbar-absolute">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">  Manage Users  </a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="material-icons">help</i>
+                                    <p class="hidden-lg hidden-md">help</p>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#"> User Roll Assignment </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">  Start Stop </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> Grade Change </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> Meter Reading  </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> Process parameter </a>
+                                    </li>
+									<li>
+                                        <a href="#"> Process Order Confirmation  </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> Reversal Process Order </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
+								Welcome User  <i class="material-icons">person</i> <p class="hidden-lg hidden-md">Profile</p>
+                                </a>
+                            </li>
+                        </ul>
+                       
+                    </div>
+                </div>
+            </nav>
+            
+			<div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header" data-background-color="blue">
+                                    <h4 class="title"> Add/Edit New Users </h4>
+                                    <p class="category">Here is we can add new user to  your application </p>
+                                </div>
+                                <div class="card-content table-responsive">
+
+
+
+								</div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card card-plain">
+                                <div class="card-header" data-background-color="blue">
+                                    <h4 class="title"> Manage Users </h4>
+                                    <p class="category">Here is we can Manage added users of our system   </p>
+                                </div>
+                                <div class="card-content table-responsive">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <th>ID</th>
+                                            <th>Name</th>
+                                            <th>Contact No</th>
+											 <th>Email Id </th>
+                                            <th> User Role  </th>
+                                            <th> Status </th>
+											 <th> Action  </th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											
+											 <tr>
+                                                <td> 2 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More "  data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											
+											 <tr>
+                                                <td> 3 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More "  data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											
+											 <tr>
+                                                <td> 4 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                 <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											
+											 <tr>
+                                                <td> 5 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											<tr>
+                                                <td> 4 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                 <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											
+											 <tr>
+                                                <td> 5 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											<tr>
+                                                <td> 4 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                 <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											
+											 <tr>
+                                                <td> 5 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											<tr>
+                                                <td> 4 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                 <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											
+											 <tr>
+                                                <td> 5 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											<tr>
+                                                <td> 4 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                 <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											
+											 <tr>
+                                                <td> 5 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											<tr>
+                                                <td> 4 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                 <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											
+											 <tr>
+                                                <td> 5 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											<tr>
+                                                <td> 4 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                 <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											
+											 <tr>
+                                                <td> 5 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											<tr>
+                                                <td> 4 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                 <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											
+											 <tr>
+                                                <td> 5 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											<tr>
+                                                <td> 4 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                 <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											
+											 <tr>
+                                                <td> 5 </td>
+                                                <td> BabaSaheb Nemane </td>
+                                                <td> 9545580101 </td>
+                                                <td> sacchykhedkar@gmail.com </td>
+                                                <td><a href="#" class="btn btn-primary btn-round" data-background-color="blue"> Admin </a></td>
+												<th> <a href="#" class="btn btn-primary btn-round">Active</a>  </th>
+												<th> 
+													<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">edit</i>
+													</button>
+													<button type="button" rel="tooltip" title="View More " data-background-color="blue" class="btn btn-primary btn-link btn-sm">
+													<i class="material-icons">build</i>
+													</button>
+													<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+													<i class="material-icons">close</i>
+													</button>
+												</th>
+                                            </tr>
+											
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container-fluid">
+                  
+                    <p class="copyright pull-right">
+                        &copy;
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script>
+                          <a href="ecgit.com"> ECG IT </a>, Design & Developed 
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+<!--   Core JS Files   -->
+<script src="content/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="content/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="content/js/material.min.js" type="text/javascript"></script>
+<!--  Charts Plugin -->
+<script src="content/js/chartist.min.js"></script>
+<!--  Dynamic Elements plugin -->
+<script src="content/js/arrive.min.js"></script>
+<!--  PerfectScrollbar Library -->
+<script src="content/js/perfect-scrollbar.jquery.min.js"></script>
+<!--  Notifications Plugin    -->
+<script src="content/js/bootstrap-notify.js"></script>
+<!--  Google Maps Plugin    -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+<!-- Material Dashboard javascript methods -->
+<script src="content/js/material-dashboard.js?v=1.2.0"></script>
+<!-- Material Dashboard DEMO methods, don't include it in your project! -->
+<script src="content/js/demo.js"></script>
+
+</html>
