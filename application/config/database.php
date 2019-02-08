@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'DESKTOP-O443706\SQLEXPRESS',
-	'username' => 'BalcoUser',
-	'password' => '123456',// 'auto@777',
-	'database' => 'BalcoPower_db',// 'PIMS_DB',
-	'dbdriver' => 'sqlsrv',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',// 'auto@777',
+	'database' => 'balcopower_db',// 'PIMS_DB',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
