@@ -412,56 +412,53 @@
 <!-- Chart code -->
 <script>
 var chart = AmCharts.makeChart("plantloadfactor", {
-	"type": "serial",
+        "type": "serial",
         "theme": "light",
-	"categoryField": "mw",
-	//"rotate": true,
+        "categoryField": "mw",
+        //"rotate": true,
         "startEffect": "elastic",
-	"startDuration": 1,
-	"categoryAxis": {
-		"gridPosition": "start",
-		"position": "left",
-                "labelRotation": 90,
-                 "fontSize": 11
+        "startDuration": 1,
+        "categoryAxis": {
+	"gridPosition": "start",
+	"position": "left",
+           "labelRotation": 90,
+           "fontSize": 11
 	},
-	"trendLines": [],
-	"graphs": [
-		{
-			"balloonText": "BP:[[value]]",
-			"fillAlphas": 0.8,
-			"id": "AmGraph-1",
-			"lineAlpha": 0.2,
-			"title": "BP",
-			"type": "column",
-                        "color":"skyblue",
-			"valueField": "bp",
-                        "fixedColumnWidth": 14
-		},
-		{
-			"balloonText": "ACT:[[value]]",
-			"fillAlphas": 0.8,
-			"id": "AmGraph-2",
-			"lineAlpha": 0.2,
-			"title": "ACT",
-			"type": "column",
-                        "color":"orange",
-			"valueField": "act",
-                        "fixedColumnWidth": 14
-		}
-	],
+        "trendLines": [],
+        "graphs": [{
+            "balloonText": "BP:[[value]]",
+            "fillAlphas": 0.8,
+            "id": "AmGraph-1",
+            "lineAlpha": 0.2,
+            "title": "BP",
+            "type": "column",
+            "color":"skyblue",
+            "valueField": "bp",
+            "fixedColumnWidth": 14
+            },
+	{
+            "balloonText": "ACT:[[value]]",
+            "fillAlphas": 0.8,
+            "id": "AmGraph-2",
+            "lineAlpha": 0.2,
+            "title": "ACT",
+            "type": "column",
+            "color":"orange",
+            "valueField": "act",
+            "fixedColumnWidth": 14
+            }],
 	"guides": [],
 	"valueAxes": [
-		{
-			"id": "ValueAxis-1",
-			"position": "bottom",
-			"axisAlpha": 1,
-//                         "minimum": 40,
-//                        "maximum": 120,
-                        "titleFontSize":14,
-                        "fontSize":11, 
-                        "title": "PLF in (%)"
-		}
-	],
+           {
+            "id": "ValueAxis-1",
+            "position": "bottom",
+            "axisAlpha": 1,
+        //            "minimum": 40,
+        //            "maximum": 120,
+            "titleFontSize":14,
+            "fontSize":11, 
+            "title": "PLF in (%)"
+           }],
         "plotAreaFillAlphas": 0.1,
         "depth3D":0,
         "angle": 10,
@@ -495,95 +492,92 @@ var chart = AmCharts.makeChart("plantloadfactor", {
             },
 	"titles": [],
 	"dataProvider": [
-		{
-			"mw": 'CPP 540',
-			"bp": 100.0,
-			"act": 95.0
-		},
-		{
-			"mw": 'CPP 600',
-			"bp": 100.0,
-			"act": 82.8
-		},
-		{
-			"mw": 'IPP 600',
-			"bp": 100.0,
-			"act": 93.9
-		},
-		{
-			"mw": 'CPP 1140',
-			"bp": 100.0,
-			"act": 75.1
-		},
-		{
-			"mw": 'TPP 1200',
-			"bp": 100.0,
-			"act": 65
-		},
                 {
-			"mw": 'TPP 1740',
-			"bp": 100.0,
-			"act": 85
-		}
-                
-	],
+                        "mw": 'CPP 540',
+                        "bp": 100.0,
+                        "act": 95.0
+                },
+                {
+                        "mw": 'CPP 600',
+                        "bp": 100.0,
+                        "act": 82.8
+                },
+                {
+                        "mw": 'IPP 600',
+                        "bp": 100.0,
+                        "act": 93.9
+                },
+                {
+                        "mw": 'CPP 1140',
+                        "bp": 100.0,
+                        "act": 75.1
+                },
+                {
+                        "mw": 'TPP 1200',
+                        "bp": 100.0,
+                        "act": 65
+                },
+                       {
+                        "mw": 'TPP 1740',
+                        "bp": 100.0,
+                        "act": 85
+                }],
     "export": {
     	"enabled": true
      }
-
 });
 
 var chart = AmCharts.makeChart("plantAvailabilityfactor", {
-	"type": "serial",
+        "type": "serial",
         "theme": "light",
-	"categoryField": "mw",
-	//"rotate": true,
-	"startDuration": 1,
-	"categoryAxis": {
-		"gridPosition": "start",
-		"position": "left",
-               "labelRotation": 90,
-                 "fontSize": 11
-	},
+        "categoryField": "mw",
+        //"rotate": true,
+        "startDuration": 1,
+        "categoryAxis": {
+            "gridPosition": "start",
+            "position": "left",
+            "labelRotation": 90,
+            "fontSize": 11
+        },
 	"trendLines": [],
 	"graphs": [
 		{
-			"balloonText": "BP:[[value]]",
-			"fillAlphas": 0.8,
-			"id": "AmGraph-1",
-			"lineAlpha": 0.2,
-			"title": "BP",
-			"type": "column",
+                        "balloonText": "BP:[[value]]",
+                        "fillAlphas": 0.8,
+                        "id": "AmGraph-1",
+                        "lineAlpha": 0.2,
+                        "title": "BP",
+                        "type": "column",
                         "color":"skyblue",
-			"valueField": "bp",
+                        "valueField": "bp",
                         "fixedColumnWidth": 14
 		},
 		{
-			"balloonText": "ACT:[[value]]",
-			"fillAlphas": 0.8,
-			"id": "AmGraph-2",
-			"lineAlpha": 0.2,
-			"title": "ACT",
-			"type": "column",
+                        "balloonText": "ACT:[[value]]",
+                        "fillAlphas": 0.8,
+                        "id": "AmGraph-2",
+                        "lineAlpha": 0.2,
+                        "title": "ACT",
+                        "type": "column",
                         "color":"orange",
-			"valueField": "act",
+                        "valueField": "act",
                         "fixedColumnWidth": 14
 		}
 	],
 	"guides": [],
 	"valueAxes": [
 		{
-			"id": "ValueAxis-1",
-			"position": "bottom",
-			"axisAlpha": 1,
-                        "titleFontSize":14,
-                        "fontSize":11, 
-                        "title": "PAF in (%)"
+                    "id": "ValueAxis-1",
+                    "position": "bottom",
+                    "axisAlpha": 1,
+                    "titleFontSize":14,
+                    "fontSize":11, 
+                    "title": "PAF in (%)"
 		}
 	],
         "plotAreaFillAlphas": 0.1,
-    "depth3D": 0,
-    "angle": 10,
+        "depth3D": 0,
+        "angle": 10,
 	"allLabels": [],
 	"balloon": {
             "drop":true,
@@ -639,7 +633,7 @@ var chart = AmCharts.makeChart("plantAvailabilityfactor", {
 			"bp": 100.0,
 			"act": 65
 		},
-                {
+                      {
 			"mw": 'TPP 1740',
 			"bp": 100.0,
 			"act": 85
@@ -653,63 +647,63 @@ var chart = AmCharts.makeChart("plantAvailabilityfactor", {
 });
 
 var chart = AmCharts.makeChart("trips", {
-	"type": "serial",
-        "theme": "none",
-	"categoryField": "mw",
-	//"rotate": true,
-	"startDuration": 1,
-	"categoryAxis": {
-		"gridPosition": "start",
-		"position": "left",
+            "type": "serial",
+            "theme": "none",
+            "categoryField": "mw",
+            //"rotate": true,
+            "startDuration": 1,
+            "categoryAxis": {
+                "gridPosition": "start",
+                "position": "left",
                 "labelRotation": 90,
                 "fontSize":11
 	},
 	"trendLines": [],
 	"graphs": [
 		{
-			"balloonText": "Trips:[[value]]",
-			"fillAlphas": 0.8,
-			"id": "AmGraph-1",
-			"lineAlpha": 0.2,
-			"title": "Trips",
-			"type": "column",
-                        "color":"skyblue",
-			"valueField": "Trips",
-                         "fixedColumnWidth": 14
+                    "balloonText": "Trips:[[value]]",
+                    "fillAlphas": 0.8,
+                    "id": "AmGraph-1",
+                    "lineAlpha": 0.2,
+                    "title": "Trips",
+                    "type": "column",
+                    "color":"skyblue",
+                    "valueField": "Trips",
+                     "fixedColumnWidth": 14
 		}
 	],
 	"guides": [],
 	"valueAxes": [
 		{
-			"id": "ValueAxis-1",
-			"position": "bottom",
-			"axisAlpha": 1,
-                        "titleFontSize":14,
-                        "fontSize":11, 
-                        "title": "No of Trips"
+                    "id": "ValueAxis-1",
+                    "position": "bottom",
+                    "axisAlpha": 1,
+                    "titleFontSize":14,
+                    "fontSize":11, 
+                    "title": "No of Trips"
 		}
 	],
-        "plotAreaFillAlphas": 0.1,
-    "depth3D": 0,
-    "angle": 20,
-	"allLabels": [],
+            "plotAreaFillAlphas": 0.1,
+            "depth3D": 0,
+            "angle": 20,
+	 "allLabels": [],
 	"balloon": {
-            "drop":true,
-            "cornerRadius": 5,
-            "adjustBorderColor": false,
-            "color": "#ffffff",
-            "fixedPosition": true,
-            "fontSize": 10
+                "drop":true,
+                "cornerRadius": 5,
+                "adjustBorderColor": false,
+                "color": "#ffffff",
+                "fixedPosition": true,
+                "fontSize": 10
             },   
             "chartCursor": {
-            "pan": true,
-            "valueLineEnabled": true,
-            "valueLineBalloonEnabled": true,
-            "cursorAlpha": 0.05,
-            "valueLineAlpha": 0.2,
-            "fullWidth":true,
-            "valueBalloonsEnabled":true,
-            "categoryBalloonEnabled":false
+                "pan": true,
+                "valueLineEnabled": true,
+                "valueLineBalloonEnabled": true,
+                "cursorAlpha": 0.05,
+                "valueLineAlpha": 0.2,
+                "fullWidth":true,
+                "valueBalloonsEnabled":true,
+                "categoryBalloonEnabled":false
 
           },  
             "legend": {

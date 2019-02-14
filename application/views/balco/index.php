@@ -233,7 +233,7 @@ font-size:20px;
                     <div class="col-lg-8">                         
                         <div class="card" style="padding: 10px;min-height: 650px;">
                             <div class="table-responsive">
-                                    <table id="example23" class="  table table-striped  table-bordered" cellspacing="0" width="100%">
+                                    <table id="example23" class="table table-striped  table-bordered" cellspacing="0" width="100%">
                                         <thead>
                                             <tr>
                                                 <th>
